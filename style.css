@@ -1,43 +1,43 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body{
-    background-color: #000000;
+  background-color: #000000;
 }
 
 h1{
-    color: transparent;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    font-family: "Poppins",sans-serif;
-    font-size: 110px;
-    letter-spacing: 0.05em;
-    background: linear-gradient(
-        #fd9800 16.7%,
-        #fe9000 16.7%,
-        #fe9000 33.4%,
-        #fff020 33.4%,
-        #fff020 50.1%,
-        #f2ff00 50.1%,
-        #ff8b06 66.8%,
-        #ffaa00 66.8%,
-        #ff4d00 86.5%,
-        #ffe606 83.5%
-    );
-    -webkit-text-stroke: 0.04em #e15615;
-    -webkit-background-clip: text;
-            background-clip: text;
-    line-height: 1.1em;
-    animation: rainbow 25s linear infinite;
+  color: transparent;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  font-family: "Poppins",sans-serif;
+  font-size: 110px;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+      #96097e 16.7%,
+      #000000 16.7%,
+      #64013b 33.4%,
+      #000000 33.4%,
+      #774078 50.1%,
+      #000000 50.1%,
+      #630374 66.8%,
+      #000000 66.8%,
+      #cc00ff 86.5%,
+      #000000 83.5%
+  );
+  -webkit-text-stroke: 0.04em #000000;
+  -webkit-background-clip: text;
+          background-clip: text;
+  line-height: 1.1em;
+  animation: rainbow 25s linear infinite;
 }
 
 @keyframes rainbow{
-    100%{
-        background-position: 0 30em;
-    }
+  100%{
+      background-position: 0 30em;
+  }
 }
