@@ -33,7 +33,7 @@ h1{
   -webkit-background-clip: text;
           background-clip: text;
   line-height: 1.1em;
-  animation: rainbow 80s linear infinite;
+  animation: rainbow 200s linear infinite;
 }
 
 @keyframes rainbow{
